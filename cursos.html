@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cursos</title>
+    </head>
+    <body>
+        <header>
+            <h1>Inscripción a Cursos</h1>
+            <nav>
+                <a href="index.html">Inicio</a> |
+                <a href="registro.html">Registro</a> |
+                <a href="lenguajes.html">Lenguajes</a> |
+                <a href="validacion.html">Validación</a> |
+                <a href="cursos.html">Cursos</a>
+            </nav>
+        </header>
+        <main>
+            <form>
+                <p><label>Nombre: <input type="text" name="nombre" required></label></p>
+                <p><label>Apellido: <input type="text" name="apellido" required></label></p>
+                <p><label>DNI: <input type="text" name="dni" required></label></p>
+                <p><label>Correo electrónico: <input type="email" name="correo" required></label></p>
+                <p>Selecciona un curso:</p>
+                <select name="curso">
+                    <option>HTML Básico</option>
+                    <option>JavaScript Intermedio</option>
+                    <option>Python Avanzado</option>
+                </select>
+                <p>Modalidad:</p>
+                <label><input type="radio" name="modalidad" value="Presencial"> Presencial</label>
+                <label><input type="radio" name="modalidad" value="Virtual"> Virtual</label>
+
+                <p>Horarios disponibles:</p>
+                <label><input type="checkbox" name="horario" value="Mañana"> Mañana</label>
+                <label><input type="checkbox" name="horario" value="Tarde"> Tarde</label>
+                <label><input type="checkbox" name="horario" value="Noche"> Noche</label>
+                <p>Comentarios adicionales:</p>
+                <textarea name="comentarios" rows="4" cols="40"></textarea>
+                <p>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Restablecer">
+                </p>
+            </form>
+        </main>
+        <footer>
+            <p>© Gustavo Linares - 2025</p>
+        </footer>
+    </body>
+</html>
