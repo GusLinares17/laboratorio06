@@ -6,4 +6,36 @@
         <title>Registro</title>
         <link rel="stylesheet" href="styles.css">
     </head>
+    <body>
+        <header>
+            <h1>Suscripción al boletín</h1>
+            <nav>
+                <a href="index.html">Inicio</a><br>
+                <a href="registro.html">Registro</a><br>
+                <a href="lenguajes.html">Lenguajes</a><br>
+                <a href="validacion.html">Validación</a><br>
+                <a href="cursos.html">Cursos</a><br>
+            </nav>
+        </header>
+        <main>
+            <form>
+                <label>Nombre completo:</label>
+                <input type="text" name="nombre" required><br><br>
+
+                <label>Correo electrónico:</label>
+                <input type="email" name="correo" required><br><br>
+
+                <label>
+                    <input type="checkbox" name="promos">
+                    Acepto recibir correos promocionales
+                </label><br><br>
+
+                <input type="submit" value="Suscribirse">
+                <input type="reset" value="Restablecer">
+            </form>
+        </main>
+        <footer>
+            <p>© Gustavo Linares - 2025</p>
+        </footer>
+    </body>
 </html>
